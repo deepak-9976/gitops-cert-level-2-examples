@@ -4,7 +4,7 @@ metadata:
   namespace: example06
   annotations:
     argocd.argoproj.io/sync-wave: "20"
-  generateName: cleanup-after-sync
+  generateName: cleanup
   labels:
     codefresh.io/cert: cleanup-job  
 spec:
