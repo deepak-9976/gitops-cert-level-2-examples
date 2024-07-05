@@ -4,7 +4,6 @@ metadata:
   namespace: example06
   annotations:
     argocd.argoproj.io/sync-wave: "10"
-  generateName: my-db-upgrade
   labels:
     codefresh.io/cert: db-job  
 spec:
