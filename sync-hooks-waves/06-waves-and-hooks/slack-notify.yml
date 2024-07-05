@@ -4,7 +4,6 @@ metadata:
   namespace: example06
   annotations:
     argocd.argoproj.io/sync-wave: "30"
-  generateName: slack
   labels:
     codefresh.io/cert: slack-job  
 spec:
